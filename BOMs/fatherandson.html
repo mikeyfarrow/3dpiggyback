@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive BOM for KiCAD</title>
+  <title>Father and Son BOM</title>
   <style type="text/css">
 :root {
   --pcb-edge-color: black;
@@ -3934,7 +3934,7 @@ function changeCanvasLayout(layout) {
 }
 
 function populateMetadata() {
-  document.getElementById("title").innerHTML = pcbdata.metadata.title;
+  document.getElementById("title").innerHTML = "Father and Son Flanger <br>(clone of Thomeeque's EM3207)";
   document.getElementById("revision").innerHTML = "Rev: " + pcbdata.metadata.revision;
   document.getElementById("company").innerHTML = pcbdata.metadata.company;
   document.getElementById("filedate").innerHTML = pcbdata.metadata.date;
